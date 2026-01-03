@@ -35,6 +35,11 @@ name = "round_trip"
 bench = false
 test = false
 
+[[example]]
+name = "email_template_compression"
+bench = false
+test = false
+
 [[bench]]
 name = "compress"
 harness = false

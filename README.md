@@ -23,5 +23,18 @@ but it is mostly written from a careful reading of the paper.
 
 **NOTE: This crate only works on little-endian architectures currently. There are no current plans to support big-endian targets.**
 
+## Examples
+
+The repository includes several examples demonstrating different use cases:
+
+- `round_trip`: Simple example showing basic compression and decompression
+- `file_compressor`: Command-line tool for compressing files
+- `email_template_compression`: Demonstrates compression on business documents (email templates)
+
+To run an example:
+```bash
+cargo run --example email_template_compression
+```
+
 [whitepaper]: https://www.vldb.org/pvldb/vol13/p2649-boncz.pdf
 [MIT-licensed implementation]: https://github.com/cwida/fsst
